@@ -1,5 +1,5 @@
  
- Used with MySQL database in Netbeans. Named the data base "nsa" and there are 3 tables. 1st table - "agent" - colums - "id" "Name" "AssignedSuspect" -- 2nd table - "suspect" - columns - "ID" "SuspectName" "Threat" "AssignedAgent" "LastSeen" -- 3rd table - "user" - columns - "id" "username" "password" "Admin"
+ Used with MySQL database in Netbeans. Named the data base "nsa" and there are 3 tables. 1st table name - "agent" - colums - "id"-integer "Name"-varchar "AssignedSuspect"-int -- 2nd table name - "suspect" - columns - "ID"-int "SuspectName"-varchar "Threat"-int "AssignedAgent"-int "LastSeen"-varchar(state or country) -- 3rd table name - "user" - columns - "id"-int "username"-varchar "password"-varchar "Admin"-char (use 't' or 'f' representing true or false)
  
  
  Only thing to change should be this line 25 in class DBConnection
