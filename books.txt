@@ -1,3 +1,0 @@
-Book2,Author2,F,
-Psycho-Cybernetics,Maxwell Maltz,N,
-Fred Flinstone,Random Book,F,
